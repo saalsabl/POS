@@ -27,7 +27,7 @@ Route::get('/', [HomeController::class, 'index'] );
 //Halaman Products
 Route::prefix('category') -> group(function(){
     Route::get('/food-beverage', [ProductsController::class, 'foodb']);
-    Route::get('/beauty-health', [ProductsController::class, 'beautyyh']);
+    Route::get('/beauty-health', [ProductsController::class, 'beautyh']);
     Route::get('/home-care', [ProductsController::class, 'homecare']);
     Route::get('/baby-kid', [ProductsController::class, 'babykid']);
 });

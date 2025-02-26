@@ -7,9 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h4>ID User : {{$id}}</h4>
-    <h4>Nama User : {{$nama}}</h4>
-    
-
+    <h2>Sales</h2>
 </body>
 </html>

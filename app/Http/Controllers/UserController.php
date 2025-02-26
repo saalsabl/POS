@@ -6,7 +6,9 @@ use Illuminate\Http\Request;
 
 class UserController extends Controller
 {
-    public function user($id,$nama){
-        return 'ID User : '.$id. '<br> Nama : '. $nama;
+    public function user(){
+        return view('pos.user')
+        ->with('id', '01')
+        ->with('nama', 'Aaisyah');
     }
 }
